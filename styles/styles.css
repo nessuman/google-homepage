@@ -1,17 +1,26 @@
-.google-logo {
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.logo {
   display: block;
-  margin: auto;
   align-self: center;
   
   padding: 20px;
 }
 
-.search-bar {
+#google-logo {
   display: block;
   margin: auto;
-  width: auto;
+}
+
+#search-bar {
+  display: block;
+  margin: auto;
+  width: 250px;
   align-self: center;
   text-align: center;
   
-  padding: 10px;
+  padding: 5px;
 }
