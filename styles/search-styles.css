@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  overflow: auto;
+  min-height: auto;
+  min-width: auto;
+}
+
+.nav-bar, .footer {
+  display: block;
+  list-style-type: none;
+  width: auto;
+  margin: auto;
+  padding: 10px;
+  overflow: hidden;
+  border-bottom: 1px solid lightgray;
+  background-color: #f2f2f2
+}
+
+.nav-bar {
+  top: 0;
+}
+
+.footer {
+  bottom: 0;
+  margin-top: 25px;
+  border-top: 1px solid lightgray;
+  background-color: #f2f2f2;
+}
+.top-nav-bar {
+  display: block;
+  overflow: hidden;
+  width: auto;
+  margin: 0 auto;
+}
+
+.logo {
+  display: block;
+  float: left;
+  align-self: center;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#google-logo {
+  display: block;
+  margin: auto;
+}
+
+.form {
+  display: block;
+  float: right;
+  align-self: center;
+  margin: auto;
+  padding: 10px;
+  padding-top: 13px;
+  padding-right: 40px;
+}
+
+#search-bar {
+  display: block;
+  position: relative;
+  margin: auto;
+  width: 500px;
+  height: 20px;
+  text-align: left;
+  font-family: "Open Sans";
+  font-size: auto;
+  
+  padding: 5px;
+}
+
+.nav-bar-list li, .footer-list li {
+  display: inline;
+  padding: 10px;
+}
+
+.nav-bar-list li a, .footer-list li a {
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: small;
+  color: dimgray;
+  text-decoration: none;
+  
+  padding: 5px;
+}
+
+.left-nav-items, .left-footer-items {
+  float: left;
+}
+
+.right-nav-items, .right-footer-items {
+  float: right;
+}
+
+.spacer {
+  display: block;
+  margin: 25px;
+}
+
+}
