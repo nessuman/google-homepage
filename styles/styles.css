@@ -1,9 +1,12 @@
 * {
   padding: 0;
   margin: 0;
+  overflow: auto;
+  min-height: auto;
+  min-width: auto;
 }
 
-.nav-bar-list {
+.nav-bar, .footer {
   display: block;
   list-style-type: none;
   width: auto;
@@ -12,27 +15,43 @@
   overflow: hidden;
 }
 
-.nav-bar-list li {
+.nav-bar {
+  top: 0;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid lightgray;
+  background-color: #f2f2f2;
+}
+
+.nav-bar-list li, .footer-list li {
   display: inline;
   padding: 12px;
 }
 
-.nav-bar-list li a {
+.nav-bar-list li a, .footer-list li a {
   text-align: center;
   font-family: "Open Sans";
   font-size-adjust: auto;
   color: dimgray;
   text-decoration: none;
+  
+  padding: 10px;
 }
 
-.left-nav-items {
+.left-nav-items, .left-footer-items {
   float: left;
 }
 
-.right-nav-items {
+.right-nav-items, .right-footer-items {
   float: right;
 }
 
+.spacer {
+  margin: 25px;
+}
 
 .logo {
   display: block;
@@ -46,13 +65,21 @@
   margin: auto;
 }
 
+.form {
+  display: block;
+  margin: auto;
+  width: auto;
+}
+
 #search-bar {
   display: block;
   margin: auto;
-  width: 250px;
+  width: 300px;
+  height: 20px;
   align-self: center;
-  text-align: center;
+  text-align: left;
   font-family: "Open Sans";
+  font-size: auto;
   
   padding: 5px;
 }
