@@ -1,0 +1,17 @@
+.google-logo {
+  display: block;
+  margin: auto;
+  align-self: center;
+  
+  padding: 20px;
+}
+
+.search-bar {
+  display: block;
+  margin: auto;
+  width: auto;
+  align-self: center;
+  text-align: center;
+  
+  padding: 10px;
+}
