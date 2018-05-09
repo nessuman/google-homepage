@@ -11,7 +11,7 @@
   list-style-type: none;
   width: auto;
   margin: auto;
-  padding: 15px;
+  padding: 10px;
   overflow: hidden;
 }
 
@@ -20,25 +20,25 @@
 }
 
 .footer {
-  position: fixed;
   bottom: 0;
+  margin-top: 25px;
   border-top: 1px solid lightgray;
   background-color: #f2f2f2;
 }
 
 .nav-bar-list li, .footer-list li {
   display: inline;
-  padding: 12px;
+  padding: 10px;
 }
 
 .nav-bar-list li a, .footer-list li a {
   text-align: center;
   font-family: "Open Sans";
-  font-size-adjust: auto;
+  font-size: small;
   color: dimgray;
   text-decoration: none;
   
-  padding: 10px;
+  padding: 5px;
 }
 
 .left-nav-items, .left-footer-items {
@@ -50,6 +50,7 @@
 }
 
 .spacer {
+  display: block;
   margin: 25px;
 }
 
