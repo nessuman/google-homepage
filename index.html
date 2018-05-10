@@ -2,6 +2,8 @@
 <html>
   <meta charset="utf-8">
   <head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="styles/styles.css" rel="stylesheet" type="text/css">
     
@@ -9,7 +11,7 @@
   </head>
 
   <body>
-    <nav class="nav-bar">
+    <div class="nav-bar">
       <ul class="nav-bar-list">
         <div class="left-nav-items">
           <li><a href="#">About</a></li>
@@ -21,21 +23,26 @@
           <li><a href="#">Images</a></li>
         </div>
       </ul>
-    </nav>
-    
-    <div class="spacer"></div>
+    </div>
     
     <div class='logo'>
-      <img id="google-logo" src='images/google-logo.png' alt="Google Logo" width='150' height='150'>
+      <img id="google-logo" src='images/google-logo.png' alt="Google Logo" width='272' height='92'>
     </div>
     
-    <div class="form">
-      <form>
-        <input id="search-bar" type="text" name="search">
-      </form>
-    </div>
+    <form class="form">
+      <div class="search">
+        <div class="search-bar-line">
+          <input id="search-bar" type="text" name="search">
+          <i class="material-icons" id="microphone">keyboard_voice
+          </i>
+        </div>
+        <div class="search-buttons">
+        </div>
+      </div>
+    </form>
+ 
     
-    <footer class="footer">
+    <div class="footer">
       <ul class="footer-list">
         <div class="left-footer-items">
             <li><a href="#">Advertising</a></li>
@@ -47,6 +54,6 @@
           <li><a href="#">Settings</a></li>
         </div>
       </ul>
-    </footer>
+    </div>
   </body>
 </html>
