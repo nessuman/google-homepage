@@ -33,14 +33,12 @@
 
 .left-nav, .left-footer {
   float: left;
-}
-
-.left-nav, .right-nav {
   display: flex;
 }
 
 .right-nav, .right-footer {
   float: right;
+  display: flex;
 }
 
 .icon {
@@ -107,10 +105,17 @@
   border: none;
   width: 484px;
   height: 36px;
-  padding: 5px;
+  line-height: 36px;
+  padding: 2px 5px 0 5px;
   margin-left: 3px;
   font-size: 12pt;
+  text-align: left;
 }
+
+#search-bar:focus {
+  outline: none;
+}
+
 
 .buttons {
   display: block;
@@ -132,8 +137,6 @@
   background: linear-gradient(#f5f5f5, #f1f1f1);
   color: #444;
 }
-
-
 
 /* Footer */
 .footer {
